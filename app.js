@@ -33,7 +33,7 @@ $('.QuickMsg').delay(10000).fadeOut('slow');
 		Page++;
 		$(".Columns").remove();
 		Token=nextToken;
-		console.log(RequestParams);
+		$(".Logo").attr("src","loader.gif");
 		Access();
 		console.log("Token "+Token);
 		$("#loader").css('display','block');
@@ -45,6 +45,7 @@ $('.QuickMsg').delay(10000).fadeOut('slow');
 			Page=1;
 			
 		}else{
+		$(".Logo").attr("src","loader.gif");
 		$(".Columns").remove();
 		Token=prevToken;
 		Access();
