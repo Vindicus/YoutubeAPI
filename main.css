@@ -1,0 +1,138 @@
+html,body{
+	margin:0;
+	
+}
+body{
+	background:red;
+}
+h1,h2{
+	margin:0;
+}
+.Wrapper{
+	
+	background:white;
+}
+
+
+.Video{
+	height:320px;
+}
+iframe{
+	position:fixed;
+	z-index:10;
+}
+#FunnyVid{
+	margin-top:30px;
+	position:relative;
+	width:100%;
+}
+nav{
+	padding-top:10px;
+
+
+}
+.Logo{
+	width:100px;
+	height:100px;
+	display:block;
+	margin:0 auto;
+}
+form{
+text-align:center;
+	
+}
+#input{
+	margin:0 auto;
+	width:340px;
+}
+#submit, button{
+	width:64px;
+	height:27px;
+	background:#f0f0f0;
+	border:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.Prev{
+	margin-top:10px;
+	float:left;
+}
+.Next{
+	margin-top:10px;
+	float:right;
+}
+.SearchInfo{
+
+	margin-top:30px;
+}
+.QueryInfo{
+
+}
+.Columns{
+	
+	border:2px solid #b7b7b7;
+	-webkit-box-sizing:border-box;
+	margin-top:15px;
+	height:430px;
+	border-radius:12px;
+}
+
+.ColumnsImg{
+display:block;
+margin:0 auto;
+
+	
+}
+.QueryBox{
+	display:block;
+margin:0 auto;
+margin-top:10px;
+
+}
+.QueryTitle{
+	font-size:1.3em;
+	padding-left:10px;
+	text-align:center;
+	font-family:Helvetica,serif;
+	cursor:pointer;
+	padding-top:10px;
+	color:white;
+}
+.Description,.Published,.Channel{
+	font-size:1.0em;
+	padding-left:5px;
+	padding-right:5px;
+	-webkit-box-sizing:border-box;
+	word-wrap:break-word;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	color:black;
+	
+}
+.feedback{
+	text-align:center;
+}
+a{
+	border-bottom:2px solid black;
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color:gray;
+}
+.Channel a{
+	color:blue;
+}
+.Channel a:hover{
+	color:gray;
+}
+.Video{
+	display:none;
+}
+.Navigation{
+	display:none;
+}
+.Prev,.Next{
+	width:100px;
+}
+
