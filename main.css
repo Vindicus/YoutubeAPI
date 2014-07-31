@@ -1,138 +1,127 @@
 html,body{
-	margin:0;
+  margin:0;
 	
 }
 body{
-	background:red;
+  background:red;
 }
 h1,h2{
-	margin:0;
+  margin:0;
 }
 .Wrapper{
-	
-	background:white;
+  background:white;
 }
-
-
 .Video{
-	height:320px;
+  height:320px;
 }
 iframe{
-	position:fixed;
-	z-index:10;
+  position:fixed;
+  z-index:10;
 }
 #FunnyVid{
-	margin-top:30px;
-	position:relative;
-	width:100%;
+  margin-top:30px;
+  position:relative;
+  width:100%;
 }
 nav{
-	padding-top:10px;
-
-
+  padding-top:10px;
 }
 .Logo{
-	width:100px;
-	height:100px;
-	display:block;
-	margin:0 auto;
+  width:100px;
+  height:100px;
+  display:block;
+  margin:0 auto;
 }
 form{
-text-align:center;
-	
+  text-align:center;
 }
 #input{
-	margin:0 auto;
-	width:340px;
+  margin:0 auto;
+  width:340px;
 }
 #submit, button{
-	width:64px;
-	height:27px;
-	background:#f0f0f0;
-	border:none;
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight:bold;
+  width:64px;
+  height:27px;
+  background:#f0f0f0;
+  border:none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
 }
 .Prev{
-	margin-top:10px;
-	float:left;
+  margin-top:10px;
+  float:left;
 }
 .Next{
-	margin-top:10px;
-	float:right;
+  margin-top:10px;
+  float:right;
 }
 .SearchInfo{
-
-	margin-top:30px;
-}
-.QueryInfo{
-
+  margin-top:30px;
 }
 .Columns{
-	
-	border:2px solid #b7b7b7;
-	-webkit-box-sizing:border-box;
-	margin-top:15px;
-	height:430px;
-	border-radius:12px;
+  border:2px solid #b7b7b7;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+  margin-top:15px;
+  height:430px;
+  border-radius:12px;
 }
-
 .ColumnsImg{
-display:block;
-margin:0 auto;
-
-	
+  display:block;
+  margin:0 auto;
 }
 .QueryBox{
-	display:block;
-margin:0 auto;
-margin-top:10px;
-
+  display:block;
+  margin:0 auto;
+  margin-top:10px;
 }
 .QueryTitle{
-	font-size:1.3em;
-	padding-left:10px;
-	text-align:center;
-	font-family:Helvetica,serif;
-	cursor:pointer;
-	padding-top:10px;
-	color:white;
+  font-size:1.3em;
+  padding-left:10px;
+  text-align:center;
+  font-family:Helvetica,serif;
+  cursor:pointer;
+  padding-top:10px;
+  color:white;
 }
 .Description,.Published,.Channel{
-	font-size:1.0em;
-	padding-left:5px;
-	padding-right:5px;
-	-webkit-box-sizing:border-box;
-	word-wrap:break-word;
-	font-family:Arial, Helvetica, sans-serif;
-	overflow:hidden;
-	color:black;
-	
+  font-size:1.0em;
+  padding-left:5px;
+  padding-right:5px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+  word-wrap:break-word;
+  font-family:Arial, Helvetica, sans-serif;
+  overflow:hidden;
+  color:black;
 }
 .feedback{
-	text-align:center;
+  text-align:center;
 }
 a{
-	border-bottom:2px solid black;
-	text-decoration:none;
-	color:black;
+  border-bottom:2px solid black;
+  text-decoration:none;
+  color:black;
 }
 a:hover{
-	color:gray;
+  color:gray;
 }
 .Channel a{
-	color:blue;
+  color:blue;
 }
 .Channel a:hover{
-	color:gray;
+  color:gray;
 }
 .Video{
-	display:none;
+  display:none;
 }
 .Navigation{
-	display:none;
+  display:none;
 }
 .Prev,.Next{
-	width:100px;
+  width:100px;
 }
-
