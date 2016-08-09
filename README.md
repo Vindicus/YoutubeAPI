@@ -14,4 +14,4 @@ The most interesting part was creating the AJAX for retrieving the Youtube resul
 1) It was exciting adding parameters with javascript objects into the data parameters using $.ajax
 2) The other part was using the results to display to the user by displaying the titles, description, thumbnails, url,publishedAt, channelTitle, and its Ids
 
-Adding <a href="http://vindicus.github.io/ShoppingCheck/">Shopping Check</a>
+Access via <a href="http://vindicus.github.io/ShoppingCheck/">Shopping Check</a>
